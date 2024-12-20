@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Салон Красоты</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="/images/free-icon-hair-salon-3791216.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <h1>Салон Красоты "Beauty"</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Галерея</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section id="gallery">
+      <h2>Галерея</h2>
+      <div class="image-gallery">
+        <img src="/images/tommy-van-kessel-ZPRBeg7Lsh0-unsplash.jpg">
+        <img src="/images/chalo-garcia-9pszsLaXh7A-unsplash.jpg">
+        <img src="/images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg">
+        <img src="/images/giorgio-trovato-wSpkThmoZQc-unsplash.jpg">
+        <img src="/images/kenny-eliason-ir4FwGZy5Xo-unsplash.jpg">
+      </div>
+    </section>
+    
+    <section id="services">
+      <h2>Наши Услуги</h2>
+      <ul>
+        <li>
+          <div class="service-image">
+            <img src="images/usluga1.jpg" alt="Service Image 1">
+          </div>
+          <div class="service-info">
+            <h3>Стрижка и укладка</h3>
+            <p>Цена: от 5000 тенге</p>
+            <p>Стили: Мужская, Женская, Модельная</p>
+            <p>Описание: Профессиональные услуги по стрижке и укладке для всех типов волос.</p>
+          </div>
+        </li>
+    
+        <li>
+          <div class="service-image">
+            <img src="/images/usluga4.jpg" alt="Service Image 2">
+          </div>
+          <div class="service-info">
+            <h3>Маникюр и педикюр</h3>
+            <p>Цена: от 4000 тенге</p>
+            <p>Стили: Классический, SPA, Дизайнерский</p>
+            <p>Описание: Уход за руками и ногами, разнообразные варианты дизайна ногтей.</p>
+          </div>
+        </li>
+    
+        <li>
+          <div class="service-image">
+            <img src="/images/usluga3.jpg" alt="Service Image 3">
+          </div>
+          <div class="service-info">
+            <h3>Макияж</h3>
+            <p>Цена: от 7500 тенге</p>
+            <p>Стили: Дневной, Вечерний, Свадебный</p>
+            <p>Описание: Профессиональный макияж для любого повода: от повседневного до праздничного.</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-image">
+            <img src="/images/usluga2.jpg" alt="Service Image 4">
+          </div>
+          <div class="service-info">
+            <h3>Чистки и пилинги</h3>
+            <p>Цена: от 10000 тенге</p>
+            <p>Стили: Чистка лица, Монопилинг, Комбинированный</p>
+            <p>Описание: Профессиональный макияж для любого повода: от повседневного до праздничного.</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-image">
+            <img src="/images/usluga6.jpg" alt="Service Image 5">
+          </div>
+          <div class="service-info">
+            <h3>Окрашивание</h3>
+            <p>Цена: от 22000 тенге</p>
+            <p>Стили: Окрашивание корней, Тонирование волос, Осветление полностью</p>
+            <p>Описание: Следует отметить и значимость укладок и причесок, с помощью которых можно создать любой необходимый образ за небольшой промежуток времени.</p>
+          </div>
+        </li>
+        
+        <li>
+          <div class="service-image">
+            <img src="/images/usluga5.jpg" alt="Service Image 6">
+          </div>
+          <div class="service-info">
+            <h3>Депиляция</h3>
+            <p>Цена: от 5000 тенге</p>
+            <p>Стили: Руки до локтя, Ноги до колен, Бикини глубокое</p>
+            <p>Описание: Восковая депиляция – доступный способ для избавления нежелательных волосков на теле, в том числе и в зоне бикини.</p>
+          </div>
+        </li>
+      </ul>
+    </section>    
+
+    <section> <h3>Записаться на прием</h3>
+      <form action="submit_form.php" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="number">Телефон:</label>
+        <input type="tel" id="number" name="number" required><br><br>
+        <label for="choose"></label>
+        <label for="datetime">Дата и время приема:</label>
+        <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+        <button type="submit">Записаться</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Контакты</h2>
+      <p>Адрес: ул. Примерная, д. 123</p>
+      <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+      <p>Email: info@salonbeauty.com</p>
+      <p>График работы: Пн-Пт: 9:00-20:00, Сб-Вс: 10:00-18:00</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Салон Красоты "Beauty"</p>
+  </footer>
+
+</body>
+</html>
